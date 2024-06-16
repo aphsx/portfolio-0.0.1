@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    background-color: #F3EEEA;
+    font-weight: bold;
 }
+
 nav{
     background-color: #333;
 }
@@ -19,7 +23,7 @@ nav{
 }
 
 a{
-    color: white;
+    color: #776B5D;
     text-decoration: none;
 }
 
@@ -37,9 +41,7 @@ a{
 }
 
 .menu li:hover{
-    background-color: #222;
-    transition: 0.2ms;
-    border-radius:10%;
+    color: white;
 }
 
 @media screen and (max-width:360px) {
@@ -54,4 +56,9 @@ a{
         
     }
 
+}
+
+article .name{
+    font-size: 2rem;
+    text-align: center;
 }
