@@ -9,7 +9,6 @@
   
   html, body {
     height: 100%;
-    overflow: hidden;
   }
   
   nav {
@@ -27,8 +26,9 @@
     justify-content: space-between;
     align-items: center;
     height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-  
   a {
     color: #776B5D;
     text-decoration: none;
@@ -79,12 +79,14 @@
     background-color: #F3EEEA;
   }
   
-  #aboutus h2 {
+  #aboutus h2{
     color: #776B5D;
     margin: auto;
     font-size: 3rem;
   }
-  
+  #aboutus .text{
+    color: #B0A695;
+  }
   #aboutus p {
     color: #B0A695;
     margin:  auto;
@@ -110,4 +112,21 @@
   margin: 0 10px; /* Adjust margin for spacing between icons */
   color: #333; /* Example color */
   font-size: 24px; /* Example font size */
+}
+@media screen and (max-width: 768px) {
+  #aboutus h2 {
+      font-size: 2.5rem;
+  }
+  #aboutus p {
+      font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #aboutus h2 {
+      font-size: 2rem;
+  }
+  #aboutus p {
+      font-size: 0.8rem;
+  }
 }
