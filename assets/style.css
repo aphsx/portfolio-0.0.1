@@ -41,7 +41,7 @@ a{
 }
 
 .menu li:hover{
-    color: white;
+    color: #B0A695;
 }
 
 @media screen and (max-width:360px) {
@@ -58,7 +58,17 @@ a{
 
 }
 
-article .name{
+article{
     font-size: 2rem;
     text-align: center;
+}
+
+#aboutus h2{
+    color: #776B5D;
+}
+#aboutus p{
+    color: #B0A695;
+}
+.resume{
+    color: #B0A695;
 }
