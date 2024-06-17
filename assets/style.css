@@ -95,4 +95,19 @@
     color: #B0A695;
     margin:  auto;
   }
-  
+/* Add this to your existing CSS file or in a <style> block in the <head> */
+
+.footer-container {
+  text-align: center; /* Center-align the content */
+  padding: 20px 0; /* Add padding for spacing */
+}
+
+.social-links {
+  display: inline-block; /* Ensure inline block layout for horizontal alignment */
+}
+
+.social-links a {
+  margin: 0 10px; /* Adjust margin for spacing between icons */
+  color: #333; /* Example color */
+  font-size: 24px; /* Example font size */
+}
