@@ -62,7 +62,6 @@
       text-align: center;
     }
   }
-  
   article {
     height: calc(85vh - 60px); /* Adjusted height to account for nav */
     margin: 0;
