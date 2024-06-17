@@ -3,72 +3,97 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Oswald", sans-serif;
-    background-color: #F3EEEA;
     font-weight: bold;
-}
-
-nav{
-    background-color: #333;
-}
-.container{
+    background-color: #F3EEEA;
+  }
+  
+  html, body {
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  nav {
+    background-color: #F3EEEA;
+  }
+  
+  .container {
     margin: 0 auto;
     max-width: 1140px;
-}
-
-.nav-con{
+    height: 100%;
+  }
+  
+  .nav-con {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: auto;
-}
-
-a{
+  }
+  
+  a {
     color: #776B5D;
     text-decoration: none;
-}
-
-.menu{
+  }
+  
+  .menu {
     display: flex;
-}
-
-.menu li{
+  }
+  
+  .menu li {
     list-style: none;
     padding: 10px;
-}
-
-.logo{
+  }
+  
+  .logo {
     margin: 20px;
-}
-
-.menu li:hover{
+  }
+  
+  .menu li {
     color: #B0A695;
-}
-
-@media screen and (max-width:360px) {
-    .nav-con{
-        flex-direction: column;
-        height: auto;
+  }
+  
+  @media screen and (max-width: 360px) {
+    .nav-con {
+      flex-direction: column;
+      height: auto;
     }
-    .menu{
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-        
+    .menu {
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
     }
-
-}
-
-article{
-    font-size: 2rem;
+  }
+  
+  article {
+    height: calc(85vh - 60px); /* Adjusted height to account for nav */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  article #aboutus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
-}
-
-#aboutus h2{
+    background-color: #F3EEEA;
+  }
+  
+  #aboutus h2 {
     color: #776B5D;
-}
-#aboutus p{
+    margin: auto;
+    font-size: 3rem;
+  }
+  
+  #aboutus p {
     color: #B0A695;
-}
-.resume{
+    margin:  auto;
+    font-size: 1rem;
+  }
+  
+  .resume {
     color: #B0A695;
-}
+    margin:  auto;
+  }
+  
